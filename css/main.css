@@ -1,0 +1,52 @@
+/*Минимальный сброс стилей для всех элементов*!*/
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Rectangle */
+
+/*position: absolute;*/
+/*width: 1920px;*/
+/*left: 0px;*/
+/*top: 0px;*/
+
+/*!* 5 *!*/
+/*background: #002239;*/
+
+header {
+    width: 100%;
+    height: 99px;
+    background-color: #002239;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
