@@ -44,12 +44,11 @@
 }
 
 .search_btn {
-    background-image: url("img/search.png");
+    background-image: url("../img/search.png");
     width: 23px;
     height: 23px;
-    background-size: 100%;
+    /*background-size: 100%;*/
     object-fit: contain;
-    border: 1px solid #fff;
 }
 
 .check_city {
