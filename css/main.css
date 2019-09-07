@@ -147,7 +147,7 @@ body {
 }
 
 .header_profile__cab {
-    /*display: none;*/
+    display: none;
     position: absolute;
     min-width: 165px;
     min-height: 166px;
@@ -356,8 +356,12 @@ body {
     z-index: 14;
 }
 
+.claim:hover {
+    background-image: url("../img/drp-dwn_menu2.svg");
+}
+
 .claim__text {
-    /*display: none;*/
+    display: none;
     margin: 15px 0 0 10px;
     padding: 7px;
     color: #a3a3a3;
@@ -404,13 +408,14 @@ body {
 
 .about_me {
     position: relative;
-    min-width: 1064px;
+    width: 1064px;
+    max-width: 1064px;
     height: 241px;
     margin-top: 40px;
-    z-index: 100;
     background: #FFFFFF;
-    box-shadow: 0 4px 14px rgba(219, 228, 227, 0.34);
     border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(219, 228, 227, 0.34);
+    z-index: 100;
 }
 
 .about_me__block, .main_block {
@@ -492,14 +497,27 @@ body {
     box-shadow: 0 4px 14px rgba(219, 228, 227, 0.34);
 }
 
-.button__add a {
-    color: #f2a000;
-    padding-left: 10px;
+.button__add a span {
+    font-size: 27px;
 }
 
+.button__add a {
+    color: #f2a000;
+}
+
+.button__add a:hover {
+    color: #FFD500;
+}
 
 /**/
 
+
+/*@media screen and (max-width: 1099px) {*/
+
+/*    .about_me {*/
+/*        max-width: 960px;*/
+/*    }*/
+/*}*/
 
 
 
